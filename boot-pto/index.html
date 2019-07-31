@@ -4,23 +4,56 @@
         <title>1st project in bootstrap</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <style>
+         .container{
+   background: #0062cc;
+   text-align: center;
+   color: white;
+ }
+        </style>
     </head>
     <body>
+        <div class=container>
+          <p class="mw">zakopane</p>
+
+          
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <button class="btn btn-outline-secondary" type="button" id="button-addon1">Button</button>
+                </div>
+                <input type="text" class="form-control1" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1" value="">
+              </div>
+
+              <div class="form-group col-md-4">
+                  <label for="inputState">State</label>
+                  <select id="inputState" class="form-control">
+                    <option selected>wybierz miasto</option>
+                    <option class="1">olsztyn</option>
+                    <option class="2">zakopane</option>
+                    <option class="3">szczecin</option>
+                  </select>
+                </div>
+                <h3>Pogoda w: <span id="dod"></span></h3>
+            
+            <p class=opis></p>
+            <img class=img></img>
+            <p class=temp></p>
+        </div>
         <h1>1st project hadvgahgdb</h1>
         <h2>1st project hadvgahgdb</h2>
-        <button class="btn btn-success" link="http://www.udemy.com">click me</button>
-        <a href="http://www.udemy.com" class="btn btn-info btn-lg">test it</a>
+        <p id="pokus">wybrany pokemon to: </p>
+        <p>Name: <input type="text" id="test" value="Mickey Mouse"></p>
+        <button id="wyszukaj" class="btn btn-success">sprawdż</button>
+        <a href="http://127.0.0.1:5500/index.html?#" class="btn btn-info btn-lg">test it</a>
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                  <img src="https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiBhKrE7tzjAhWxyKYKHYsGDHkQjRx6BAgBEAU&url=https%3A%2F%2Fwww.empik.com%2Flego-klocki-remiza-strazacka-lego%2Cp1220352320%2Czabawki-p&psig=AOvVaw2jhAA6C5YlF_W4uJhGCT88&ust=1564583672534039" class="d-block w-100" alt="...">
+                  <img src="https://www.imperiumtapet.com/public/uploads/preview/ciemne-tapety-40jpg-301533125600ox2elwmgpw.jpg" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjT09jL7tzjAhULH5oKHds-DQoQjRx6BAgBEAU&url=%2Furl%3Fsa%3Di%26source%3Dimages%26cd%3D%26ved%3D%26url%3Dhttps%253A%252F%252Fwww.ceneo.pl%252F58835931%26psig%3DAOvVaw2jhAA6C5YlF_W4uJhGCT88%26ust%3D1564583672534039&psig=AOvVaw2jhAA6C5YlF_W4uJhGCT88&ust=1564583672534039" class="d-block w-100" alt="...">
+                <img src="https://www.imperiumtapet.com/public/uploads/preview/czarno-bialy-krajobraz-z-wybrzeza-146721535313753mibeicjjyh.jpg" class="d-block w-100" alt="...">
               </div>
-              <div class="carousel-item">
-                <img src="https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjj6Yrj7tzjAhUP06YKHYzWA_gQjRx6BAgBEAU&url=%2Furl%3Fsa%3Di%26source%3Dimages%26cd%3D%26ved%3D%26url%3Dhttps%253A%252F%252Fshop.lego.com%252Fpl-PL%252Fproduct%252FDruga-Strona-75810%26psig%3DAOvVaw2jhAA6C5YlF_W4uJhGCT88%26ust%3D1564583672534039&psig=AOvVaw2jhAA6C5YlF_W4uJhGCT88&ust=1564583672534039" class="d-block w-100" alt="...">
-              </div>
+   
             </div>
           </div>
 
@@ -53,6 +86,7 @@
               <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </form>
           </nav>
+          <script src="index.js"></script>
           <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </body>
 </html>
