@@ -1,3 +1,4 @@
+console.log('dupaaaaa')
 $("#button-addon1").click(getData); 
 $("#inputState").bind("change", function(){
     var zm = $(this).val();
